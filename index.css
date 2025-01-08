@@ -102,6 +102,8 @@ header .banner {
 .personal-info h1 {
     font-size: 49px;
     margin-bottom: 20px;
+    color: transparent;
+        -webkit-text-stroke: 1px #000;
 
 }
 
