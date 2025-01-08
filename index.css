@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: rgba(253, 110, 10, 0.1);
+    height: 100vh;
+    max-width: 1600px;
+    background-image: url(/images/developer.png), url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    /* background-size: 70px; */
+    background-position: top left, bottom right;
+
+}
+
+section {
+    padding: 50px 100px;
+
+}
+
+header section nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header section nav .logo {
+    font-size: 45px;
+}
+
+header section nav .logo span {
+    color: rgba(253, 110, 10, 1);
+}
+
+.header ul li a {
+    text-decoration: none;
+
+}
+
+.header ul {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header ul li {
+    list-style: none;
+    color: black;
+
+}
+
+.header ul button {
+    background-color: rgba(253, 110, 10, 1);
+    color: white;
+
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+
+header .banner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.personal-info {
+    margin-top: 50px;
+    width: 585px;
+    height: 356px;
+
+
+
+
+}
+
+.personal-info h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.personal-info h1 {
+    font-size: 49px;
+    margin-bottom: 20px;
+
+}
+
+.personal-info p {
+    margin-bottom: 15px;
+    color: rgba(117, 117, 117, 1);
+}
+
+.btn {
+    padding: 15px 30px;
+    font-weight: 800;
+    color: white;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.personal-info .con {
+    background-color: transparent;
+    color: rgba(253, 110, 10, 1);
+    border: 1px solid rgba(253, 110, 10, 1);
+    margin-left: 15px;
+}
+
+.daw {
+    background-color: rgba(253, 110, 10, 1);
+    color: white;
+    border: none;
+}
+
+.personal-info .con:hover {
+
+    background-color: rgb(234, 152, 93);
+    color: white;
+}
+
+.banner img {
+    max-width: 584px;
+    max-height: 476px;
+
+}
+
+/* main */
+
+.about-section {
+    max-width: 1140px;
+    height: 550px;
+    background-color: rgba(255, 248, 243, 1);
+    margin: 100px 150px;
+}
+
+.about-section .about {
+    margin: 100px;
+    width: 827px;
+    height: 288px;
+    text-align: center;
+    /* margin-top: 100px; */
+}
+
+.about-section .about h2 {
+    margin-bottom: 20px;
+}
+
+.about-section .about p {
+    color: rgba(117, 117, 117, 1);
+    margin-bottom: 20px;
+}
+
+.information {
+    display: flex;
+    margin-top: 50px;
+    gap: 40px;
+    justify-content: center;
+
+}
+
+.information .inpo h5 {
+    color: gray;
+}
+
+.information .inpo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* skil */
+section .skil {
+    text-align: center;
+    width: 800px;
+    margin: auto;
+
+}
+
+.skill-dettles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 60px;
+}
+
+.skill-dettles .skill-name {
+    width: 180px;
+    height: 277px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 40px;
+    border-radius: 10px;
+
+
+
+}
+
+.skill-name img {
+    margin-bottom: 10px;
+}
+
+.skill-name h5 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.skill-name p {
+    margin-bottom: 15;
+    color: rgba(117, 117, 117, 1);
+}
+
+.resum-title {
+    text-align: center;
+}
+
+.resum-detle {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+
+
+}
+
+.resum {
+    width: 511px;
+    height: 177px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.resum-sub-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.resum p {
+    color: rgba(117, 117, 117, 1);
+}
+
+.resum h2,
+h3 {
+    color: rgba(71, 71, 71, 1);
+}
+
+.btns {
+    text-align: center;
+}
+
+/* footer */
+footer {
+    background-color: rgba(255, 248, 243, 1);
+    width: 1600px;
+    height: 780px;
+    /* display: flex; */
+
+}
+
+.contact {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.img {
+    display: flex;
+}
+
+.contact img {
+    width: 50px;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.footer-pag {
+    display: flex;
+    margin: auto;
+
+}
+
+form h2 {
+    text-align: center;
+}
+
+form input {
+    background-color: white;
+    /* width: 441px; */
+    height: 64px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+ padding-left: 30px;
+    font-size: 16px;
+
+}
+
+form input::placeholder {
+    padding-left: 30px;
+
+}
+
+.form .mas {
+    height: 180px;
+    width: 468px;
+
+}
