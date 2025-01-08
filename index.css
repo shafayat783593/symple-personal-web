@@ -35,8 +35,24 @@ header section nav .logo span {
 
 .header ul li a {
     text-decoration: none;
+    color: white;
+transition: all;
+}
+
+.header ul li a:hover{
+    color: black;
 
 }
+
+/* .header ul li a::before{
+    content: "";
+    height: 2px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: coral
+    ;
+} */
 
 .header ul {
     display: flex;
