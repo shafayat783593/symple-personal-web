@@ -15,6 +15,7 @@ header {
 
 }
 
+
 section {
     padding: 50px 100px;
 
@@ -35,7 +36,7 @@ header section nav .logo span {
 
 .header ul li a {
     text-decoration: none;
-    color: white;
+    color: tomato;
 transition: all;
 }
 
